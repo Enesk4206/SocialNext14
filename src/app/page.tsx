@@ -5,18 +5,7 @@ export default function Home() {
   return (
     <div className="m-4">
 
-    <SignedOut>
-        <SignInButton mode="modal">
-          <Button>
-            Giriş Yap
-          </Button>
-        </SignInButton>
-    </SignedOut>
-    <SignedIn>
-        <UserButton/>
-      </SignedIn>
-      
-      <ModeToggle />
+      MainPage
     </div>
   );
 }
